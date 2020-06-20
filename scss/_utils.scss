@@ -1,0 +1,169 @@
+//fonts
+.fz-2 {
+    font-size: 16px;
+}
+
+.fz-3 {
+    font-size: 24px;
+}
+
+.fz-4 {
+    font-size: 32px;
+}
+
+.fz-6 {
+    font-size: 48px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-12 {
+    font-size: 12px;
+}
+
+
+//line-height
+.lh-19 {
+    line-height: 19px;
+}
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.lh-36 {
+    line-height: 36px;
+}
+
+.lh-2 {
+    line-height: 16px;
+}
+
+.lh-3 {
+    line-height: 24px;
+}
+
+.lh-4 {
+    line-height: 32px;
+}
+
+.lh-6 {
+    line-height: 48px;
+}
+
+.lh-8 {
+    line-height: 64px;
+}
+
+//fontWeight
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-exBold {
+    font-weight: 800;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+// color
+.textColor {
+    color: $text;
+}
+
+.darkTitle {
+    color: #000000DE;
+}
+
+.primary {
+    color: $primary;
+}
+
+.lightest {
+    color: $lightest;
+}
+
+.transparentWhite {
+    color: #FFFFFF99;
+}
+
+.dark {
+    color: #000000;
+}
+
+.alertTxt {
+    color: #0000009A;
+}
+
+.placeHolderColor {
+    color: #00000099;
+}
+
+.bg-light {
+    background-color: #F2F2F2;
+}
+
+.bg-graylight {
+    background-color: #F1F0F8;
+}
+
+//width
+.w-27 {
+    width: 27%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-36 {
+    width: 36%;
+}
+
+.w-64 {
+    width: 64%;
+}
+
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+
+.ob-fit {
+    object-fit: cover;
+}
+
+.fillBtn {
+    display: inline-block;
+    padding: 19px 45px 18px 45px;
+    background-color: $primary;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+        background-color: darken($primary, 15%);
+        color: $lightest;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+

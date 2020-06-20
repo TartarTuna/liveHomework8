@@ -1,0 +1,141 @@
+.header {
+    .headerNav {
+        height: 72px;
+    }
+}
+
+
+.dropdown-toggle::after {
+    vertical-align: super;
+}
+
+.navbar {
+    .dropdown-menu {
+        left: -30px;
+        min-width: auto;
+    }
+}
+
+.searchBar {
+    height: 104px;
+    z-index: 100;
+    top: 72px;
+    background-color: #f1f0f8;
+
+    .searchGroup {
+        margin: 24px 0;
+    }
+
+    .searchBlock {
+        padding: 10px 16px;
+        width: 312px;
+    }
+
+    .searchBtn {
+        padding: 17px 32px;
+        width: 126px;
+        text-transform: uppercase;
+    }
+
+    .searchTxtTitle {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .searchTxt {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .serchContent {
+        margin-right: 60px;
+    }
+}
+
+.roomTour {
+    .roomPhotos {
+        margin-top: 200px;
+        max-height: 434px;
+    
+        .col-7 img {
+            height: 434px;
+        }
+    
+        .topImg img {
+            height: 213px;
+        }
+    
+        .downLeft img {
+            width: 213px;
+            height: 213px;
+        }
+    
+        .downRight {
+            img {
+                width: 246px;
+                height: 151px;
+            }
+    
+            .fillBtn {
+                padding: 16px 47px;
+                background-color: $text;
+                &:hover {
+                    background-color: #121212;
+                }
+            }
+        }
+    }
+}
+
+.editBtn a {
+    color: $primary;
+        &:hover {
+            color: $text;
+        }
+}
+
+.roomTypeCard {
+    img {
+        height: 175px;
+    }
+
+    .roomEquipment {
+        height: 102px;
+    
+        .material-icons {
+        font-size: 1.125rem;
+        }
+    
+        span {
+        vertical-align: middle;
+        }
+    }
+}
+
+.input-group {
+    .form-control {
+        height: 56px;
+    }
+}
+
+.footer {
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    .footerItem {
+        li a {
+            color: #00000099;
+                &:hover {
+                    color: $primary;
+                }
+        }
+    }
+
+    .footerBar {
+        .dropdown-menu {
+            top: -250%;
+            left: 0px;
+            min-width: auto;
+        }
+    }
+}
